@@ -1,3 +1,9 @@
+Edited the Pterodactyl images for my own purposes on Github because the docker image can't be pulled and then modified from quay.io.
+The only thing that has changed here is I modified the java-11 branch to use openjdk7 (https://github.com/Erycus/images/commit/e2540dae8f0353feb008ffae5717565310d2360f).
+This is because I have an old minecraft modpack that can't run on Java 8+ versions...
+If you're a normal person like me and just need openjdk 7 on pterodactyl panel for whatever reason, you can use the docker image: erycus/pterodactyl:latest
+I make precisely zero guarantees towards the saftey or security of your server or any consequences arising from the use of the above image.
+
 [![Logo Image](https://cdn.pterodactyl.io/logos/Banner%20Logo%20Black@2x.png)](https://pterodactyl.io)
 
 This repository contains generic [Docker](https://docker.com) images that are used by Pterodactyl Panel to run games. With the release of `v0.6.0` of our panel, we have moved to making the install process be a completely seperate part of the process, making it much easier to maintain a smaller set of Dockerfiles.
