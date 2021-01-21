@@ -3,7 +3,7 @@
 # Environment: Java (glibc support)
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM        frolvlad/alpine-openjdk7
+FROM        itzg/ubuntu-openjdk-7
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
