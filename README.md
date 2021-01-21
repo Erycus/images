@@ -3,6 +3,7 @@ The only thing that has changed here is I modified the java-11 branch (now calle
 This is because I have an old minecraft modpack that can't run on Java 8+ versions...
 If you're a normal person like me and just need openjdk 7 on pterodactyl panel for whatever reason, you can use the docker image: erycus/pterodactyl:latest
 I make precisely zero guarantees towards the saftey or security of your server or any consequences arising from the use of the above image.
+BTW, YES Java 7 has serious security issues.  NO I don't care.
 
 [![Logo Image](https://cdn.pterodactyl.io/logos/Banner%20Logo%20Black@2x.png)](https://pterodactyl.io)
 
